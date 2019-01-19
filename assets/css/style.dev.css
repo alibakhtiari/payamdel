@@ -1,0 +1,562 @@
+@font-face {
+    font-family: IRANSANS;
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/IRANSansWeb(FaNuma).eot');
+    src: url('fonts/IRANSansWeb(FaNuma).eot?#iefix') format('embedded-opentype'), url('fonts/IRANSansWeb(FaNuma).woff2') format('woff2'), url('fonts/IRANSansWeb(FaNuma).woff') format('woff'), url('fonts/IRANSansWeb(FaNuma).ttf') format('truetype')
+}
+
+body.custom-background {
+    background-image: url("../img/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row:after,
+.col:after,
+.clr:after,
+.group:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.row {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.col {
+    margin-bottom: 1.5em;
+    display: block;
+    float: right;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.container {
+    width: 1040px;
+    min-width: 200px;
+    max-width: 85%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#header-image {
+    display: block
+}
+
+body {
+    font: 15px/1.8 'IIRANSANS';
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%
+}
+
+body a {
+    color: #f15a23
+}
+
+body a:hover {
+    text-decoration: underline
+}
+
+#wrap {
+    margin: 40px auto;
+    background: #fff;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .15)
+}
+
+#main {
+    background: #fff;
+    padding: 25px
+}
+
+img {
+    max-width: 100%
+}
+
+.entry-footer {
+    clear: both;
+    margin: 20px 0 0
+}
+
+.full-width {
+    width: 100% !important
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul li,
+li,
+span p,
+div p,
+body {
+    font-family: 'IRANSANS'
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #444
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    color: #f15a23
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 30px 0 20px;
+    font-weight: 600
+}
+
+h1 {
+    font-size: 30px;
+    margin: 50px 0;
+    text-align: center
+}
+
+h2 {
+    font-size: 18px
+}
+
+h3 {
+    font-size: 16px
+}
+
+h4 {
+    font-size: 14px
+}
+
+h5 {
+    font-size: 12px
+}
+
+h6 {
+    font-size: 11px
+}
+
+.subheader {
+    color: #777
+}
+
+p {
+    margin: 20px 50px;
+    text-align: justify
+}
+
+.textwidget p {
+    margin: 15px 0;
+    text-align: right
+}
+
+a:link {
+    text-decoration: none
+}
+
+#masthead {
+    position: relative;
+    padding: 40px 25px
+}
+
+#masthead-image {
+    display: block;
+    border-top: 5px solid #eee
+}
+
+.logo {
+    float: right
+}
+
+.logo img {
+    display: block;
+    max-width: 100%
+}
+
+.masthead-right {
+    float: left
+}
+
+.masthead-right-content {
+    margin-bottom: 5px
+}
+
+.nav-toggle {
+    display: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#navbar {
+    min-height: 55px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #383838;
+    position: relative
+}
+
+.nav-menu {
+    float: right
+}
+
+.nav-menu a {
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    padding: 15px 25px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.nav-menu li {
+    float: right;
+    position: relative
+}
+
+.nav-menu>li>a {
+    border-right: 1px solid rgba(255, 255, 255, .1)
+}
+
+.nav-menu>li>a:hover,
+.nav-menu>.current-menu-item>a,
+.navigation .current-menu-parent>a,
+.navigation .current-menu-parent>a:hover,
+.nav-menu>.current-menu-item>a:hover {
+    color: #fff;
+    background: #f15a23;
+    text-decoration: none
+}
+
+.slicknav_menu {
+    display: none
+}
+
+.slicknav_btn {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    margin: 0;
+    border: 0;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700
+}
+
+.slicknav_btn:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+.slicknav_menu .slicknav_icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -4px;
+    width: 15px;
+    height: 10px;
+    line-height: 0
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 2px;
+    background: #fff
+}
+
+.slicknav_nav {
+    position: relative;
+    z-index: 999;
+    background: #222;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+
+.slicknav_nav li {
+    display: block
+}
+
+.slicknav_nav .slicknav_arrow {
+    font-size: 1em;
+    margin: 0 0 0 7px
+}
+
+.slicknav_nav .slicknav_item {
+    cursor: pointer
+}
+
+.slicknav_nav a {
+    display: block;
+    text-decoration: none !important
+}
+
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a {
+    display: inline
+}
+
+.slicknav_nav .slicknav_row {
+    display: block;
+    padding: 5px 15px;
+    margin: 4px 0
+}
+
+.slicknav_nav ul {
+    list-style: none;
+    overflow: hidden
+}
+
+.slicknav_nav ul {
+    padding: 0;
+    margin: 0 0 0 20px
+}
+
+.slicknav_nav a {
+    color: #999;
+    padding: 4px 15px;
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: 600
+}
+
+.slicknav_nav a:hover {
+    background: #111;
+    color: #fff
+}
+
+.slicknav_nav ul a {
+    margin: 2px 0;
+    padding: 2px 15px
+}
+
+.slicknav_nav a .fa {
+    margin-right: 10px
+}
+
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a {
+    padding: 0;
+    margin: 0
+}
+
+.slicknav_menutxt {
+    float: left
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.flexslider .slides>li {
+    display: none;
+    -webkit-backface-visibility: hidden
+}
+
+.flexslider {
+    zoom: 1;
+    position: relative
+}
+
+#home-slider-wrap {
+    position: relative;
+    margin: -30px -25px 25px
+}
+
+#home-slider-loader {
+    height: 381px
+}
+
+#footer {
+    color: #9f9f9f;
+    position: relative;
+    padding: 25px 25px 0;
+    background: #2d2d2d;
+    font-size: 12px
+}
+
+.footer-widget {
+    margin-bottom: 25px
+}
+
+.footer-widget h6 {
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 5px;
+    margin: 0 0 10px
+}
+
+#footer-bottom {
+    color: #9f9f9f;
+    font-size: 11px;
+    padding: 10px 25px;
+    background-color: #222;
+    margin: 0
+}
+
+#footer-bottom a {
+    color: #ccc
+}
+
+#footer-bottom a:hover {
+    color: #fff
+}
+
+#copyright p {
+    margin: 0
+}
+
+#home-wrap {
+    padding-bottom: 80px
+}
+
+#footer-bottom .col {
+    margin-bottom: 0;
+    font-family: 'IRANSANS';
+    font-size: 13px
+}
+
+.flex-nav-prev,
+.flex-nav-next {
+    display: none
+}
+.gllr_image_row {
+    clear: both;
+    display: inline-flex
+}
+.gallery.clearfix.gllr_grid{
+    text-align:center
+}
+.fancy-thumb {
+    width:160px;height:120px;border-width: 10px; border-color:#f1f1f1;border: 10px solid #f1f1f1
+}
+.gallery_box{
+    display: inline-block;
+    text-align:center
+}
+@media only screen and (max-width:959px) {
+    .nav-menu {
+        display: none
+    }
+
+    .slicknav_menu {
+        display: block
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+    .container {
+        max-width: 93%
+    }
+}
+
+@media only screen and (max-width:767px) {
+    p {
+        margin: 20px
+    }
+
+    .container {
+        max-width: 95%
+    }
+
+    .masthead-right {
+        display: none
+    }
+
+    #copyright,
+    #footer-menu {
+        text-align: center
+    }
+
+    .logo {
+        text-align: center;
+        float: none
+    }
+    .gllr_image_row,.gllr_image_block {
+        width: 100%;
+        display: block
+    }
+}
+
+@media (min-width:768px) {
+    .span_6 {
+        width: 23.5%
+    }
+
+    .span_17 {
+        width: 70.25%
+    }
+
+    .col {
+        margin-right: 3%
+    }
+}
+
